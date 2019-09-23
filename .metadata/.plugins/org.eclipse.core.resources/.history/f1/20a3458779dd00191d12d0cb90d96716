@@ -1,0 +1,13 @@
+package framework;
+
+import org.openqa.selenium.WebDriver;
+
+public class Framework 
+{
+	public static WebDriver Browser;
+	public static void close_Browser()
+	{
+		
+		Browser.quit();
+	}
+}

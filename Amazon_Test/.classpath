@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/Selenium/selenium-server-standalone-3.141.59.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium/chromedriver_win32 (1).zip"/>
+	<classpathentry kind="lib" path="D:/Selenium/jar_files/testng-6.9.9.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

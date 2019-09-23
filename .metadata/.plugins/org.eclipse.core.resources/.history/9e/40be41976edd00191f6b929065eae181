@@ -1,0 +1,9 @@
+package framework;
+
+public class Framework 
+{
+	public static void close_Browser()
+	{
+		Browser.quit()
+	}
+}

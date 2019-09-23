@@ -1,0 +1,16 @@
+package components;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+
+public class lauch {
+
+	private void run()
+	{
+		System.setProperty("webdriver.chrome.driver", "D:\\Selenium\\chromedriver.exe");
+		WebDriver browser = new ChromeDriver();
+		browser.get("https://www.skype.com/en/");
+
+	}
+
+}

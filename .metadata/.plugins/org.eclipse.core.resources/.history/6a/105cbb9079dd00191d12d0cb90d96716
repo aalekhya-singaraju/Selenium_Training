@@ -1,0 +1,19 @@
+package components;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.support.ByIdOrName;
+
+import framework.BaseTest;
+
+public class searchProduct extends BaseTest
+{
+private static void run() throws Exception
+
+{
+	clickElement(By.id(""));
+	clickElement(By.id(""));
+	clickElement(By.id("pt1:_UISmmLink::icon"));
+	setElementText(By.id("_FOpt1:_FOr1:0:_FOSritemNode_payables_payables_invoices:0:MAnt2:1:pm1:r1:0:ap1:r2:0:i3::content"),Amount);
+
+}
+}

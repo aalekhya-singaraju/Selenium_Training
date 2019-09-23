@@ -1,0 +1,21 @@
+package test;
+
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+import components.lauch;
+
+public class Amazon_com extends BaseTest {
+
+	@Test
+	public void executeTest() throws Exception{
+		lauch.run(1);
+	
+	}
+	@AfterTest
+	public void end(){
+		close();
+	}
+
+}

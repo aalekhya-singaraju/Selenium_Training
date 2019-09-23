@@ -1,0 +1,345 @@
+!SESSION 2019-09-22 23:14:23.515 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_201
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-09-22 23:21:35.770
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-09-22 23:21:35.798
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Dell'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-22 23:21:42.314
+!MESSAGE Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-22 23:22:55.811
+!MESSAGE Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-22 23:22:56.958
+!MESSAGE Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-22 23:22:57.830
+!MESSAGE Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-22 23:22:58.850
+!MESSAGE Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-23 00:04:51.576
+!MESSAGE The POM for org.seleniumhq.selenium:selenium-server-standalone:jar:2.53.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-23 00:05:13.711
+!MESSAGE The POM for org.seleniumhq.selenium:selenium-server-standalone:jar:2.48.2 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-23 00:05:13.840
+!MESSAGE The POM for org.seleniumhq.selenium:selenium-server-standalone:jar:2.48.2 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-23 00:05:36.860
+!MESSAGE The POM for org.seleniumhq.selenium:selenium-server-standalone:jar:2.46.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-23 00:05:36.868
+!MESSAGE The POM for org.seleniumhq.selenium:selenium-server-standalone:jar:2.46.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-09-23 00:19:27.419
+!MESSAGE failed to load maven project for org.eclipse.ui.part.FileEditorInput(/SeleniumTest/pom.xml)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-09-23 00:19:27.485
+!MESSAGE Could not read pom.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-09-23 00:19:29.104
+!MESSAGE Could not read pom.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-23 00:20:03.625
+!MESSAGE The POM for org.seleniumhq.selenium:selenium-server-standalone:jar:2.46.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.recommenders.models.rcp 1 0 2019-09-23 00:47:49.116
+!MESSAGE org.eclipse.recommenders:index::zip:0.0.0 could not be resolved from model repositories. Are you offline?
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2019-09-23 01:08:00.707
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2019-09-23 01:08:00.707
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-09-23 01:08:00.708
+!MESSAGE "Guava: Google Core Libraries for Java" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2019-09-23 01:08:00.708
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-09-23 01:08:00.708
+!MESSAGE Software being installed: TestNG M2E (Maven) Integration (Optional) 7.0.0.201908240652 (org.testng.eclipse.maven.feature.feature.group 7.0.0.201908240652)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-09-23 01:08:00.708
+!MESSAGE Missing requirement: TestNG Eclipse Support 7.0.0.201908201535 (org.testng.eclipse 7.0.0.201908201535) requires 'bundle org.eclipse.jdt.launching 3.10.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-09-23 01:08:00.708
+!MESSAGE Missing requirement: TestNG Eclipse Support 7.0.0.201908240652 (org.testng.eclipse 7.0.0.201908240652) requires 'bundle org.eclipse.jdt.launching 3.10.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-09-23 01:08:00.708
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-09-23 01:08:00.708
+!MESSAGE From: TestNG 7.0.0.201908201535 (org.testng.eclipse.feature.group 7.0.0.201908201535)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-09-23 01:08:00.708
+!MESSAGE To: org.testng.eclipse [7.0.0.201908201535]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-09-23 01:08:00.708
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-09-23 01:08:00.708
+!MESSAGE From: TestNG 7.0.0.201908240652 (org.testng.eclipse.feature.group 7.0.0.201908240652)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-09-23 01:08:00.708
+!MESSAGE To: org.testng.eclipse [7.0.0.201908240652]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-09-23 01:08:00.708
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-09-23 01:08:00.708
+!MESSAGE From: TestNG M2E (Maven) Integration (Optional) 7.0.0.201908240652 (org.testng.eclipse.maven.feature.feature.group 7.0.0.201908240652)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-09-23 01:08:00.708
+!MESSAGE To: org.testng.eclipse.feature.group [7.0.0,8.0.0)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2019-09-23 01:08:00.738
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2019-09-23 01:08:00.738
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-09-23 01:08:00.738
+!MESSAGE "Guava: Google Core Libraries for Java" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2019-09-23 01:08:00.738
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-09-23 01:08:00.738
+!MESSAGE Software being installed: TestNG M2E (Maven) Integration (Optional) 7.0.0.201908240652 (org.testng.eclipse.maven.feature.feature.group 7.0.0.201908240652)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-09-23 01:08:00.738
+!MESSAGE Missing requirement: TestNG Eclipse Support 7.0.0.201908201535 (org.testng.eclipse 7.0.0.201908201535) requires 'bundle org.eclipse.jdt.launching 3.10.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-09-23 01:08:00.738
+!MESSAGE Missing requirement: TestNG Eclipse Support 7.0.0.201908240652 (org.testng.eclipse 7.0.0.201908240652) requires 'bundle org.eclipse.jdt.launching 3.10.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-09-23 01:08:00.738
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-09-23 01:08:00.738
+!MESSAGE From: TestNG 7.0.0.201908201535 (org.testng.eclipse.feature.group 7.0.0.201908201535)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-09-23 01:08:00.738
+!MESSAGE To: org.testng.eclipse [7.0.0.201908201535]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-09-23 01:08:00.738
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-09-23 01:08:00.738
+!MESSAGE From: TestNG 7.0.0.201908240652 (org.testng.eclipse.feature.group 7.0.0.201908240652)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-09-23 01:08:00.738
+!MESSAGE To: org.testng.eclipse [7.0.0.201908240652]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-09-23 01:08:00.738
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-09-23 01:08:00.738
+!MESSAGE From: TestNG M2E (Maven) Integration (Optional) 7.0.0.201908240652 (org.testng.eclipse.maven.feature.feature.group 7.0.0.201908240652)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-09-23 01:08:00.738
+!MESSAGE To: org.testng.eclipse.feature.group [7.0.0,8.0.0)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2019-09-23 01:08:00.777
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2019-09-23 01:08:00.777
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-09-23 01:08:00.777
+!MESSAGE "Guava: Google Core Libraries for Java" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2019-09-23 01:08:00.777
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-09-23 01:08:00.777
+!MESSAGE Software being installed: TestNG M2E (Maven) Integration (Optional) 7.0.0.201908240652 (org.testng.eclipse.maven.feature.feature.group 7.0.0.201908240652)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-09-23 01:08:00.777
+!MESSAGE Missing requirement: TestNG Eclipse Support 7.0.0.201908201535 (org.testng.eclipse 7.0.0.201908201535) requires 'bundle org.eclipse.jdt.launching 3.10.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-09-23 01:08:00.777
+!MESSAGE Missing requirement: TestNG Eclipse Support 7.0.0.201908240652 (org.testng.eclipse 7.0.0.201908240652) requires 'bundle org.eclipse.jdt.launching 3.10.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-09-23 01:08:00.777
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-09-23 01:08:00.777
+!MESSAGE From: TestNG 7.0.0.201908201535 (org.testng.eclipse.feature.group 7.0.0.201908201535)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-09-23 01:08:00.777
+!MESSAGE To: org.testng.eclipse [7.0.0.201908201535]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-09-23 01:08:00.777
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-09-23 01:08:00.777
+!MESSAGE From: TestNG 7.0.0.201908240652 (org.testng.eclipse.feature.group 7.0.0.201908240652)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-09-23 01:08:00.777
+!MESSAGE To: org.testng.eclipse [7.0.0.201908240652]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-09-23 01:08:00.777
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-09-23 01:08:00.777
+!MESSAGE From: TestNG M2E (Maven) Integration (Optional) 7.0.0.201908240652 (org.testng.eclipse.maven.feature.feature.group 7.0.0.201908240652)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-09-23 01:08:00.777
+!MESSAGE To: org.testng.eclipse.feature.group [7.0.0,8.0.0)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2019-09-23 01:08:00.786
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2019-09-23 01:08:00.786
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-09-23 01:08:00.786
+!MESSAGE "Guava: Google Core Libraries for Java" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2019-09-23 01:08:00.786
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-09-23 01:08:00.786
+!MESSAGE Software being installed: TestNG M2E (Maven) Integration (Optional) 7.0.0.201908240652 (org.testng.eclipse.maven.feature.feature.group 7.0.0.201908240652)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-09-23 01:08:00.786
+!MESSAGE Missing requirement: TestNG Eclipse Support 7.0.0.201908201535 (org.testng.eclipse 7.0.0.201908201535) requires 'bundle org.eclipse.jdt.launching 3.10.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-09-23 01:08:00.786
+!MESSAGE Missing requirement: TestNG Eclipse Support 7.0.0.201908240652 (org.testng.eclipse 7.0.0.201908240652) requires 'bundle org.eclipse.jdt.launching 3.10.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-09-23 01:08:00.786
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-09-23 01:08:00.786
+!MESSAGE From: TestNG 7.0.0.201908201535 (org.testng.eclipse.feature.group 7.0.0.201908201535)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-09-23 01:08:00.786
+!MESSAGE To: org.testng.eclipse [7.0.0.201908201535]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-09-23 01:08:00.786
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-09-23 01:08:00.786
+!MESSAGE From: TestNG 7.0.0.201908240652 (org.testng.eclipse.feature.group 7.0.0.201908240652)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-09-23 01:08:00.786
+!MESSAGE To: org.testng.eclipse [7.0.0.201908240652]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-09-23 01:08:00.786
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-09-23 01:08:00.786
+!MESSAGE From: TestNG M2E (Maven) Integration (Optional) 7.0.0.201908240652 (org.testng.eclipse.maven.feature.feature.group 7.0.0.201908240652)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-09-23 01:08:00.786
+!MESSAGE To: org.testng.eclipse.feature.group [7.0.0,8.0.0)
+!SESSION 2019-09-23 01:12:59.583 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_201
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-09-23 01:13:29.895
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-09-23 01:13:29.964
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Dell'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.testng.eclipse 1 0 2019-09-23 01:14:27.283
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Selenium\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\436\0\.cp\lib\testng-remote.jar C:\Users\Dell\workspace\Amazon_Test\bin D:\Selenium\selenium-server-standalone-3.141.59.jar D:\Selenium\chromedriver_win32 (1).zip D:\Selenium\testng-6.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 65049 -protocol json -d C:\Users\Dell\workspace\Amazon_Test\test-output C:\Users\Dell\workspace\Amazon_Test\src\TestNG.xml
+java -ea -classpath D:\Selenium\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\436\0\.cp\lib\testng-remote.jar:C:\Users\Dell\workspace\Amazon_Test\bin:D:\Selenium\selenium-server-standalone-3.141.59.jar:D:\Selenium\chromedriver_win32 (1).zip:D:\Selenium\testng-6.0.jar org.testng.remote.RemoteTestNG -serport 65049 -protocol json -d C:\Users\Dell\workspace\Amazon_Test\test-output C:\Users\Dell\workspace\Amazon_Test\src\TestNG.xml
+
+!ENTRY org.testng.eclipse 1 0 2019-09-23 01:23:02.340
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Selenium\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\436\0\.cp\lib\testng-remote.jar C:\Users\Dell\workspace\Amazon_Test\bin D:\Selenium\selenium-server-standalone-3.141.59.jar D:\Selenium\chromedriver_win32 (1).zip D:\Selenium\jar_files\testng-7.0.0-beta3.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 65253 -protocol json -d C:\Users\Dell\workspace\Amazon_Test\test-output C:\Users\Dell\workspace\Amazon_Test\src\TestNG.xml
+java -ea -classpath D:\Selenium\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\436\0\.cp\lib\testng-remote.jar:C:\Users\Dell\workspace\Amazon_Test\bin:D:\Selenium\selenium-server-standalone-3.141.59.jar:D:\Selenium\chromedriver_win32 (1).zip:D:\Selenium\jar_files\testng-7.0.0-beta3.jar org.testng.remote.RemoteTestNG -serport 65253 -protocol json -d C:\Users\Dell\workspace\Amazon_Test\test-output C:\Users\Dell\workspace\Amazon_Test\src\TestNG.xml
+
+!ENTRY org.testng.eclipse 1 0 2019-09-23 01:23:02.910
+!MESSAGE Stop the socket server as it's still pending on accepting the client
+
+!ENTRY org.testng.eclipse 1 0 2019-09-23 01:29:13.813
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Selenium\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\436\0\.cp\lib\testng-remote.jar C:\Users\Dell\workspace\Amazon_Test\bin D:\Selenium\selenium-server-standalone-3.141.59.jar D:\Selenium\chromedriver_win32 (1).zip D:\Selenium\jar_files (1)\testng-7.0.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 49240 -protocol json -d C:\Users\Dell\workspace\Amazon_Test\test-output C:\Users\Dell\workspace\Amazon_Test\src\TestNG.xml
+java -ea -classpath D:\Selenium\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\436\0\.cp\lib\testng-remote.jar:C:\Users\Dell\workspace\Amazon_Test\bin:D:\Selenium\selenium-server-standalone-3.141.59.jar:D:\Selenium\chromedriver_win32 (1).zip:D:\Selenium\jar_files (1)\testng-7.0.0.jar org.testng.remote.RemoteTestNG -serport 49240 -protocol json -d C:\Users\Dell\workspace\Amazon_Test\test-output C:\Users\Dell\workspace\Amazon_Test\src\TestNG.xml
+
+!ENTRY org.testng.eclipse 1 0 2019-09-23 01:30:43.344
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Selenium\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\436\0\.cp\lib\testng-remote.jar C:\Users\Dell\workspace\Amazon_Test\bin D:\Selenium\selenium-server-standalone-3.141.59.jar D:\Selenium\chromedriver_win32 (1).zip D:\Selenium\jar_files (1)\testng-7.0.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 49253 -protocol json -d C:\Users\Dell\workspace\Amazon_Test\test-output C:\Users\Dell\workspace\Amazon_Test\src\TestNG.xml
+java -ea -classpath D:\Selenium\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\436\0\.cp\lib\testng-remote.jar:C:\Users\Dell\workspace\Amazon_Test\bin:D:\Selenium\selenium-server-standalone-3.141.59.jar:D:\Selenium\chromedriver_win32 (1).zip:D:\Selenium\jar_files (1)\testng-7.0.0.jar org.testng.remote.RemoteTestNG -serport 49253 -protocol json -d C:\Users\Dell\workspace\Amazon_Test\test-output C:\Users\Dell\workspace\Amazon_Test\src\TestNG.xml
+
+!ENTRY org.testng.eclipse 1 0 2019-09-23 01:32:03.614
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Selenium\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\436\0\.cp\lib\testng-remote.jar C:\Users\Dell\workspace\Amazon_Test\bin D:\Selenium\selenium-server-standalone-3.141.59.jar D:\Selenium\chromedriver_win32 (1).zip D:\Selenium\jar_files (1)\testng-7.0.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 49275 -protocol json -d C:\Users\Dell\workspace\Amazon_Test\test-output C:\Users\Dell\workspace\Amazon_Test\src\TestNG.xml
+java -ea -classpath D:\Selenium\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\436\0\.cp\lib\testng-remote.jar:C:\Users\Dell\workspace\Amazon_Test\bin:D:\Selenium\selenium-server-standalone-3.141.59.jar:D:\Selenium\chromedriver_win32 (1).zip:D:\Selenium\jar_files (1)\testng-7.0.0.jar org.testng.remote.RemoteTestNG -serport 49275 -protocol json -d C:\Users\Dell\workspace\Amazon_Test\test-output C:\Users\Dell\workspace\Amazon_Test\src\TestNG.xml
+
+!ENTRY org.testng.eclipse 1 0 2019-09-23 01:35:51.914
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Selenium\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\436\0\.cp\lib\testng-remote.jar C:\Users\Dell\workspace\Amazon_Test\bin D:\Selenium\selenium-server-standalone-3.141.59.jar D:\Selenium\chromedriver_win32 (1).zip D:\Selenium\jar_files (1)\testng-7.0.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 49349 -protocol json -d C:\Users\Dell\workspace\Amazon_Test\test-output C:\Users\Dell\workspace\Amazon_Test\src\TestNG.xml
+java -ea -classpath D:\Selenium\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\436\0\.cp\lib\testng-remote.jar:C:\Users\Dell\workspace\Amazon_Test\bin:D:\Selenium\selenium-server-standalone-3.141.59.jar:D:\Selenium\chromedriver_win32 (1).zip:D:\Selenium\jar_files (1)\testng-7.0.0.jar org.testng.remote.RemoteTestNG -serport 49349 -protocol json -d C:\Users\Dell\workspace\Amazon_Test\test-output C:\Users\Dell\workspace\Amazon_Test\src\TestNG.xml
+
+!ENTRY org.testng.eclipse 1 0 2019-09-23 01:43:30.880
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Selenium\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\436\0\.cp\lib\testng-remote.jar C:\Users\Dell\workspace\Amazon_Test\bin D:\Selenium\selenium-server-standalone-3.141.59.jar D:\Selenium\chromedriver_win32 (1).zip D:\Selenium\jar_files (1)\testng-7.0.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 49516 -protocol json -d C:\Users\Dell\workspace\Amazon_Test\test-output C:\Users\Dell\workspace\Amazon_Test\src\TestNG.xml
+java -ea -classpath D:\Selenium\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\436\0\.cp\lib\testng-remote.jar:C:\Users\Dell\workspace\Amazon_Test\bin:D:\Selenium\selenium-server-standalone-3.141.59.jar:D:\Selenium\chromedriver_win32 (1).zip:D:\Selenium\jar_files (1)\testng-7.0.0.jar org.testng.remote.RemoteTestNG -serport 49516 -protocol json -d C:\Users\Dell\workspace\Amazon_Test\test-output C:\Users\Dell\workspace\Amazon_Test\src\TestNG.xml
+
+!ENTRY org.testng.eclipse 1 0 2019-09-23 01:46:47.315
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Selenium\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\436\0\.cp\lib\testng-remote.jar C:\Users\Dell\workspace\Amazon_Test\bin D:\Selenium\selenium-server-standalone-3.141.59.jar D:\Selenium\chromedriver_win32 (1).zip D:\Selenium\jar_files\testng-6.14.3.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 49769 -protocol json -d C:\Users\Dell\workspace\Amazon_Test\test-output C:\Users\Dell\workspace\Amazon_Test\src\TestNG.xml
+java -ea -classpath D:\Selenium\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\436\0\.cp\lib\testng-remote.jar:C:\Users\Dell\workspace\Amazon_Test\bin:D:\Selenium\selenium-server-standalone-3.141.59.jar:D:\Selenium\chromedriver_win32 (1).zip:D:\Selenium\jar_files\testng-6.14.3.jar org.testng.remote.RemoteTestNG -serport 49769 -protocol json -d C:\Users\Dell\workspace\Amazon_Test\test-output C:\Users\Dell\workspace\Amazon_Test\src\TestNG.xml
+
+!ENTRY org.testng.eclipse 1 0 2019-09-23 01:49:23.283
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Selenium\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\436\0\.cp\lib\testng-remote.jar C:\Users\Dell\workspace\Amazon_Test\bin D:\Selenium\selenium-server-standalone-3.141.59.jar D:\Selenium\chromedriver_win32 (1).zip D:\Selenium\jar_files\testng-6.9.9.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 49810 -protocol json -d C:\Users\Dell\workspace\Amazon_Test\test-output C:\Users\Dell\workspace\Amazon_Test\src\TestNG.xml
+java -ea -classpath D:\Selenium\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\436\0\.cp\lib\testng-remote.jar:C:\Users\Dell\workspace\Amazon_Test\bin:D:\Selenium\selenium-server-standalone-3.141.59.jar:D:\Selenium\chromedriver_win32 (1).zip:D:\Selenium\jar_files\testng-6.9.9.jar org.testng.remote.RemoteTestNG -serport 49810 -protocol json -d C:\Users\Dell\workspace\Amazon_Test\test-output C:\Users\Dell\workspace\Amazon_Test\src\TestNG.xml
+
+!ENTRY org.testng.eclipse 1 0 2019-09-23 01:50:12.102
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Selenium\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\436\0\.cp\lib\testng-remote.jar C:\Users\Dell\workspace\Amazon_Test\bin D:\Selenium\selenium-server-standalone-3.141.59.jar D:\Selenium\chromedriver_win32 (1).zip D:\Selenium\jar_files\testng-6.9.9.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 49819 -protocol json -d C:\Users\Dell\workspace\Amazon_Test\test-output C:\Users\Dell\workspace\Amazon_Test\src\TestNG.xml
+java -ea -classpath D:\Selenium\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\436\0\.cp\lib\testng-remote.jar:C:\Users\Dell\workspace\Amazon_Test\bin:D:\Selenium\selenium-server-standalone-3.141.59.jar:D:\Selenium\chromedriver_win32 (1).zip:D:\Selenium\jar_files\testng-6.9.9.jar org.testng.remote.RemoteTestNG -serport 49819 -protocol json -d C:\Users\Dell\workspace\Amazon_Test\test-output C:\Users\Dell\workspace\Amazon_Test\src\TestNG.xml
+!SESSION 2019-09-23 01:51:21.417 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_201
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-09-23 01:51:57.744
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-09-23 01:51:57.796
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Dell'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.testng.eclipse 1 0 2019-09-23 01:52:06.088
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Selenium\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\436\0\.cp\lib\testng-remote.jar C:\Users\Dell\workspace\Amazon_Test\bin D:\Selenium\selenium-server-standalone-3.141.59.jar D:\Selenium\chromedriver_win32 (1).zip D:\Selenium\jar_files\testng-6.9.9.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 49846 -protocol json -d C:\Users\Dell\workspace\Amazon_Test\test-output C:\Users\Dell\workspace\Amazon_Test\src\TestNG.xml
+java -ea -classpath D:\Selenium\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\436\0\.cp\lib\testng-remote.jar:C:\Users\Dell\workspace\Amazon_Test\bin:D:\Selenium\selenium-server-standalone-3.141.59.jar:D:\Selenium\chromedriver_win32 (1).zip:D:\Selenium\jar_files\testng-6.9.9.jar org.testng.remote.RemoteTestNG -serport 49846 -protocol json -d C:\Users\Dell\workspace\Amazon_Test\test-output C:\Users\Dell\workspace\Amazon_Test\src\TestNG.xml
+
+!ENTRY org.testng.eclipse 1 0 2019-09-23 01:53:27.760
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Selenium\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\436\0\.cp\lib\testng-remote.jar C:\Users\Dell\workspace\Amazon_Test\bin D:\Selenium\selenium-server-standalone-3.141.59.jar D:\Selenium\chromedriver_win32 (1).zip D:\Selenium\jar_files\testng-6.9.9.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 49950 -protocol json -d C:\Users\Dell\workspace\Amazon_Test\test-output C:\Users\Dell\workspace\Amazon_Test\src\TestNG.xml
+java -ea -classpath D:\Selenium\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\436\0\.cp\lib\testng-remote.jar:C:\Users\Dell\workspace\Amazon_Test\bin:D:\Selenium\selenium-server-standalone-3.141.59.jar:D:\Selenium\chromedriver_win32 (1).zip:D:\Selenium\jar_files\testng-6.9.9.jar org.testng.remote.RemoteTestNG -serport 49950 -protocol json -d C:\Users\Dell\workspace\Amazon_Test\test-output C:\Users\Dell\workspace\Amazon_Test\src\TestNG.xml
+
+!ENTRY org.eclipse.recommenders.models.rcp 1 0 2019-09-23 01:54:46.246
+!MESSAGE org.eclipse.recommenders:index::zip:0.0.0 could not be resolved from model repositories. Are you offline?

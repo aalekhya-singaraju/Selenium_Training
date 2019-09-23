@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+	<test name="Test1">
+	  <parameter name="dataFile" value="src/cloud/tests/Google/Tests.xlsx"/>
+	  <parameter name="sheet" value="TS01"/>
+	  <parameter name="scenario" value="T01"/>
+		<classes>
+		  <class name="cloud.tests.Google.Google_Search_Test"/>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
